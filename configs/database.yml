@@ -1,0 +1,4 @@
+host: localhost     
+name: utelbotdb   
+user: kas     
+port: 5432

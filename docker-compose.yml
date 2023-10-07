@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  bot:
+    env_file:
+      - .env
+    network_mode: "host"
+    build: ./bin/bot
+    ports:
+      - "80:80"
+  observer:
+    env_file:
+      - .env
+    network_mode: "host"
+    build: ./bin/observer
+    ports:
+      - "8000:80"

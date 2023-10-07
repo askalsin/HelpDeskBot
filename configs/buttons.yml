@@ -1,0 +1,121 @@
+select_phone_number_input_method:
+  manual_input:
+    text: "Ввести вручную"
+    callback_data: "select_phone_number_input_method_manual_input"
+  telegram_api_input:
+    text: "Отправить мой номер телефона"
+    callback_data: "select_phone_number_input_method_telegram_api_input"
+
+data_validation:
+  correct:
+    text: "Верно"
+    callback_data: "data_validation_correct"
+  incorrect:
+    text: "Начать заново"
+    callback_data: "data_validation_incorrect"
+
+main_menu:
+  menu:
+    text: "Меню"
+    callback_data: "menu"
+  settings:
+    text: "Настройки"
+    callback_data: "settings"
+
+menu:
+  price_list:
+    text: "Список услуг"
+    callback_data: "https://kupiuchi.ru/services_for_bot"
+
+  make_order:
+    text: "Оставить заявку"
+    callback_data: "menu_make_order"
+  make_order_add_contact_person:
+    text: "Указать другое контактное лицо"
+    callback_data: "menu_make_order_add_contact_person"
+  make_order_save_data:
+    text: "Отправить"
+    callback_data: "menu_make_order_save_data"
+  make_order_new_address:
+    text: "Изменить адрес"
+    callback_data: "menu_make_order_new_address"
+  make_order_cancel:
+    text: "Отменить"
+    callback_data: "menu_make_cancel"
+
+  call_me:
+    text: "Позвоните мне"
+    callback_data: "call_me_callback_data"
+  call_me_save_data:
+    text: "Отправить"
+    callback_data: "call_me_save_data"
+  call_me_cancel:
+    text: "Отменить"
+    callback_data: "call_me_cancel"
+
+  issues_manage:
+    text: "Управление заявками"
+    callback_data: "menu_issues_manage"
+  issues_list:
+    text: "Список моих заявок"
+    callback_data: "menu_issues_list"
+  delete_issues:
+    text: "Отменить заявку"
+    callback_data: "menu_delete_issues"
+  issues_manage_back:
+    text: "<-назад"
+    callback_data: "menu_issues_manage_back"
+  hide_issues_list:
+    text: "<-назад"
+    callback_data: "menu_hide_issues_list"
+  hide_by_message_id:
+    text: "Скрыть"
+    callback_data: "hide_by_message_id"
+  select_assessment:
+    text: "0"
+    callback_data: "assessment"
+  send_assessment:
+    text: "Оценить"
+    callback_data: "send_assessment"
+  menu_back:
+    text: "<-назад"
+    callback_data: "menu_back"
+
+settings:
+  delete_account:
+    text: "Удалить аккаунт!"
+    callback_data: "delete_account"
+  change_data:
+    text: "Изменить регистрационные данные"
+    callback_data: "change_data"
+  settings_back:
+    text: "<-назад"
+    callback_data: "settings_back"
+
+change_data:
+  change_name:
+    text: "Изменить Ф.И.О."
+    callback_data: "change_name"
+  change_organization:
+    text: "Изменить название организации"
+    callback_data: "change_organization"
+  change_address:
+    text: "Изменить адрес"
+    callback_data: "change_address"
+  change_phone_number:
+    text: "Изменить номер телефона"
+    callback_data: "change_phone_number"
+  change_email:
+    text: "Изменить email"
+    callback_data: "change_email"
+  change_back:
+    text: "<-назад"
+    callback_data: "change_back"
+
+delete_account_validation:
+  yes:
+    text: "Да"
+    callback_data: "delete_account_validation_yes"
+  no:
+    text: "Нет"
+    callback_data: "delete_account_validation_no"

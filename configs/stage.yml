@@ -1,0 +1,36 @@
+registration:
+  enter_user_name: "registration_enter_user_name"
+  enter_user_name_again: "registration_enter_user_name_again"
+  enter_organization: "registration_enter_organization"
+  enter_address_organization: "registration_enter_address_organization"
+  select_phone_number_input_method: "registration_select_phone_number_input_method"
+  enter_phone_number_telegram_api: "registration_enter_phone_number_telegram_api"
+  enter_phone_number_manualy: "registration_enter_phone_number_manualy"
+  enter_email: "registration_enter_email"
+  complete_registration: "registration_complete_registration"
+
+menu:
+  open: "open_menu"
+  make_order_text: "menu_make_order_text"
+  make_order_check_data: "menu_make_check_data"
+  make_order_change_name_contact_person: "menu_make_order_change_name_contact_person"
+  make_order_change_number_contact_person: "menu_make_order_change_number_contact_person"
+  make_order_change_number_validate: "menu_make_order_change_number_validate"
+  make_order_new_address: "menu_make_order_new_address"
+  call_me: "menu_call_me"
+  selection_assissment: "selection_assissment"
+  selection_text: "selection_text"
+
+settings:
+  menu: "settings_menu"
+  change_data: "settings_change_data"
+  begin_delete_account: "settings_begin_delete_account"
+  change_name: "settings_change_name"
+  change_organization: "settings_change_organization"
+  change_address: "settings_change_address"
+  change_email: "settings_change_email"
+  change_phone_number: "settings_change_phone_number"
+  select_phone_number_input_method: "settings_select_phone_number_input_method"
+  enter_phone_number_telegram_api: "settings_enter_phone_number_telegram_api"
+  enter_phone_number_manualy: "settings_enter_phone_number_manualy"
+  

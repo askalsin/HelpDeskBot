@@ -1,0 +1,4 @@
+testconfig.toml
+bin*
+cmd/test*
+.vscode*
